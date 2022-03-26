@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-microsoft-winrm" %}
-{% set version = "2.0.3" %}
+{% set version = "2.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache-airflow-providers-microsoft-winrm-{{ version }}.tar.gz
-  sha256: d52720c3a4704dcdb2df82b8c951a8995fcf4a1c9c023b7b968cb1906384fac2
+  sha256: 1bd5ba79027b9a352af2ce2352a3be56e1a3f66f4dcff8524930eb136380f5fa
 
 build:
   number: 0
