@@ -1,7 +1,6 @@
 {% set name = "apache-airflow-providers-microsoft-winrm" %}
 {% set version = "2.0.5" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -11,9 +10,9 @@ source:
   sha256: 1bd5ba79027b9a352af2ce2352a3be56e1a3f66f4dcff8524930eb136380f5fa
 
 build:
-  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
@@ -36,9 +35,10 @@ test:
 
 about:
   home: https://airflow.apache.org/
-  summary: Provider for Windows Remote Management (WinRM) for Apache Airflow
+  summary: Provider for Apache Airflow. Implements apache-airflow-providers-microsoft-winrm package
   license: Apache-2.0
   license_file: LICENSE
+  license_family: Apache
   doc_url: https://airflow.apache.org/docs/apache-airflow-providers-microsoft-winrm/stable/index.html
   dev_url: https://github.com/apache/airflow/
 
