@@ -3,11 +3,11 @@ About apache-airflow-providers-microsoft-winrm-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apache-airflow-providers-microsoft-winrm-feedstock/blob/main/LICENSE.txt)
 
-Home: https://airflow.apache.org/
+Home: https://github.com/apache/airflow/
 
 Package license: Apache-2.0
 
-Summary: Provider for Apache Airflow. Implements apache-airflow-providers-microsoft-winrm package
+Summary: Provider package apache-airflow-providers-microsoft-winrm for Apache Airflow
 
 Development: https://github.com/apache/airflow/
 
