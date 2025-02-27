@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/apache_airflow_providers_microsoft_winrm-{{ version }}.tar.gz
   sha256: 82c887d2477dfdecbe4f0cd5da851e776fd03a2f40c86eaf6ca44abdd6cd961f
 
 build:
@@ -37,7 +37,7 @@ about:
   home: https://github.com/apache/airflow/
   summary: Provider package apache-airflow-providers-microsoft-winrm for Apache Airflow
   license: Apache-2.0
-  license_file: airflow/providers/microsoft/winrm/LICENSE
+  license_file: src/airflow/providers/microsoft/winrm/LICENSE
   license_family: Apache
   doc_url: https://airflow.apache.org/docs/apache-airflow-providers-microsoft-winrm/stable/index.html
   dev_url: https://github.com/apache/airflow/
