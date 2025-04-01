@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-microsoft-winrm" %}
-{% set version = "3.9.1" %}
+{% set version = "3.9.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/apache_airflow_providers_microsoft_winrm-{{ version }}.tar.gz
-  sha256: f24fa8715537d7f720b06e41e0f88289736041beff0c21d7b86945d69d372689
+  sha256: 070407bcf89cb513211b06f5ec3f3a6b222947e67af2c6058ddf926e9438b7c0
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - apache-airflow >=2.9.0
-    - pywinrm >=0.4
+    - pywinrm >=0.5.0
 
 test:
   imports:
