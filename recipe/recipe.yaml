@@ -29,7 +29,7 @@ requirements:
 tests:
   - python:
       imports:
-        - airflow.providers.microsoft.winrm
+      - airflow.providers.microsoft.winrm
       pip_check: true
       python_version: ${{ python_min }}.*
 
