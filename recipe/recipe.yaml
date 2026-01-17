@@ -1,6 +1,6 @@
 context:
   name: apache-airflow-providers-microsoft-winrm
-  version: 3.13.3
+  version: "3.13.3"
 
 package:
   name: ${{ name|lower }}
@@ -25,10 +25,11 @@ requirements:
     - apache-airflow >=2.11.0
     - apache-airflow-providers-common-compat >=1.12.0
     - pywinrm >=0.5.0
+
 tests:
   - python:
       imports:
-        - airflow.providers.microsoft.winrm
+      - airflow.providers.microsoft.winrm
       pip_check: true
       python_version: ${{ python_min }}.*
 
