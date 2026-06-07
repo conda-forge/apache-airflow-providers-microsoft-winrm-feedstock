@@ -1,6 +1,6 @@
 context:
   name: apache-airflow-providers-microsoft-winrm
-  version: "3.14.2"
+  version: "3.14.3"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/apache_airflow_providers_microsoft_winrm-${{ version }}.tar.gz
-  sha256: afdf5b062c15eabdab841efb66ee4ad90db57bf946cbf035a320d2e7447d1aa3
+  sha256: f59ec7133b942cf529faf13668ac83293092ba4e26813abc22462357894597be
 
 build:
   noarch: python
